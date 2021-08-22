@@ -18,4 +18,8 @@ target 'Player' do
   #     flipper_post_install(installer)
   #   end
   # end
+  pod 'react-native-orientation', :path => '../node_modules/react-native-orientation'
+
+  pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+
 end
